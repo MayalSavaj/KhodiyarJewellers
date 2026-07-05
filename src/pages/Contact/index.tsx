@@ -36,7 +36,7 @@ const Contact = () => {
             <div className="contact-card">
               <div className="cc-icon">📍</div>
               <h4>The Atelier</h4>
-              <p>Leo Gold, 14–16 Zaveri Bazaar,<br />Mumbai 400 002, Maharashtra, India.</p>
+              <p>Shop No. 2/3 Saurastra township, Sudama Chowk, <br />Mota Varachha, Surat, Gujarat 394101, India.</p>
               <span className="link-arrow">Get Directions <span>→</span></span>
             </div>
             <div className="contact-card">
@@ -67,17 +67,17 @@ const Contact = () => {
           </div>
           <div className="map-shell reveal">
             <iframe
-              src="https://www.google.com/maps?q=Zaveri+Bazaar,+Mumbai&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.800798545324!2d72.87754332024976!3d21.23961440369638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f8af3677775%3A0x51bc0072f0f6e2f7!2sKhodiyar%20Jewellers!5e1!3m2!1sen!2sin!4v1783269736331!5m2!1sen!2sin"
               title={`${Brand?.Name} location`}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
-            <div className="map-overlay">
+            {/* <div className="map-overlay">
               <h5>{Brand?.Name}</h5>
-              <p>{Brand?.AtelierName} · 14–16 Zaveri Bazaar · Mumbai 400 002</p>
+              <p>{Brand?.AtelierName} · Mota Varachha, Surat, Gujarat 394101</p>
               <span className="link-arrow">Open in Maps <span>→</span></span>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

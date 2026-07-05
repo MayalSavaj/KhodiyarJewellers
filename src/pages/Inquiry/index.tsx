@@ -45,7 +45,7 @@ const Inquiry = () => {
               <p>The trade desk handles wholesale accounts, bespoke commissions, export documentation, and atelier visits. There is no ticketing system — a person reads every note.</p>
               <p>For urgent matters, WhatsApp is faster than this form. We respond within the hour during trading days.</p>
               <div className="contact-line">
-                <div className="row"><span className="ci">📍</span><div><strong>The Atelier</strong><span>Leo Gold, Zaveri Bazaar, Mumbai 400 002</span></div></div>
+                <div className="row"><span className="ci">📍</span><div><strong>The Atelier</strong><span>Mota Varachha, Surat, Gujarat 394101</span></div></div>
                 <div className="row"><span className="ci">📞</span><div><strong>Trade Desk</strong><span><a href="tel:+912222420000">+91 22 2242 0000</a></span></div></div>
                 <div className="row"><span className="ci">✉️</span><div><strong>Mail</strong><span><a href="mailto:trade@khodiyarjewellers.com">trade@khodiyarjewellers.com</a></span></div></div>
                 <div className="row"><span className="ci">⏱️</span><div><strong>Hours</strong><span>Mon–Sat, 09:30–18:30 IST</span></div></div>

@@ -7,7 +7,7 @@ export enum Brand {
   FoundedYear = '1984',
   AtelierFounded = '2008',
   Location    = 'Zaveri Bazaar',
-  City        = 'Mumbai',
+  City        = 'Surat',
 }
 
 // ─── Contact ─────────────────────────────────────────────────────────────────
@@ -15,8 +15,8 @@ export enum Brand {
 export enum Contact {
   EmailAtelier = 'atelier@khodiyarjewellers.com',
   EmailTrade   = 'trade@khodiyarjewellers.com',
-  Address      = '14 Karigar Lane, Zaveri Bazaar, Mumbai 400002, India',
-  AddressShort = 'Leo Gold, Zaveri Bazaar, Mumbai 400 002',
+  Address      = 'Shop No. 2/3 Saurastra township, Sudama Chowk, Mota Varachha, Surat, Gujarat 394101',
+  AddressShort = 'Mota Varachha, Surat, Gujarat 394101',
   WhatsAppFloat   = 'https://wa.me/919821200000',
   WhatsAppContact = 'https://wa.me/912222420000',
   Instagram    = 'https://instagram.com',
@@ -61,5 +61,5 @@ export enum PageMeta {
 
 // ─── Markets served ──────────────────────────────────────────────────────────
 
-export const MARKETS = ['Mumbai', 'Surat', 'Dubai', 'London'] as const;
+export const MARKETS = ['Surat'] as const;
 export type Market = (typeof MARKETS)[number];

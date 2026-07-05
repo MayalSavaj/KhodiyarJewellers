@@ -14,7 +14,7 @@ const Footer = () => {
           </span>
           <p>
             A heritage jewellery maison crafting heirloom-grade bridal, traditional and modern gold
-            jewellery &mdash; manufactured in-house at the Leo Gold atelier, Mumbai.
+            jewellery &mdash; manufactured in-house at the Leo Gold atelier, Surat.
           </p>
           <div className="socials">
             <a href="#" aria-label="Instagram">
@@ -76,7 +76,7 @@ const Footer = () => {
           <h5>Atelier</h5>
           <p>
             <strong>Address</strong>
-            14 Karigar Lane, Zaveri Bazaar,<br />Mumbai 400002, India
+             Shop No. 2/3 Saurastra township, Sudama Chowk, <br />Mota Varachha, Surat, Gujarat 394101, India.
           </p>
           <p><strong>Telephone</strong>+91 98212 00000</p>
           <p><strong>Email</strong>atelier@khodiyarjewellers.com</p>
@@ -87,7 +87,7 @@ const Footer = () => {
         <span>
           &copy; {year} {Brand?.Name} &middot; <em>{Brand?.AtelierName}</em> Atelier &middot; All rights reserved
         </span>
-        <span>Mumbai &middot; Surat &middot; Dubai &middot; London</span>
+        <span>Surat</span>
       </div>
     </footer>
   );
