@@ -1,0 +1,43 @@
+:root {
+  /* Brand colours */
+  --color-gold:        #c8a96e;
+  --color-gold-light:  #e2c99a;
+  --color-gold-dark:   #8b6914;
+  --color-cream:       #fdf8f0;
+  --color-dark:        #1a1a1a;
+  --color-dark-mid:    #2d2d2d;
+  --color-muted:       #6b6b6b;
+  --color-border:      #e5ddd0;
+  --color-white:       #ffffff;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+  --text-4xl:  2.25rem;
+  --text-5xl:  3rem;
+
+  /* Spacing */
+  --spacing-section: 5rem;
+  --spacing-gap:     1.5rem;
+
+  /* Borders */
+  --radius-sm:  0.25rem;
+  --radius-md:  0.5rem;
+  --radius-lg:  1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 8px 32px rgba(200, 169, 110, 0.2);
+
+  /* Transitions */
+  --transition: 0.3s ease;
+}
