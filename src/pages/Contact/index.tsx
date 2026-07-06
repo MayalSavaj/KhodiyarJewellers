@@ -4,8 +4,8 @@ import { useReveal } from '@/hooks/useReveal';
 import { Brand, Route } from '@/constants/enum';
 
 const CHANNELS = [
-  { num: '01', h: 'WhatsApp', p: 'For fast responses during trading hours. The desk monitors WhatsApp from 09:00–19:00 IST, Monday to Saturday.', link: 'https://wa.me/912222420000', label: 'Open WhatsApp →' },
-  { num: '02', h: 'Instagram', p: 'The atelier\'s visual record — new releases, bench moments, and seasonal collections. DMs are monitored but slower than WhatsApp.', link: 'https://instagram.com', label: 'View on Instagram →' },
+  { num: '01', h: 'WhatsApp', p: 'For fast responses during trading hours. The desk monitors WhatsApp from 09:00–19:00 IST, Monday to Saturday.', link: 'https://wa.me/9193139902158', label: 'Open WhatsApp →' },
+  { num: '02', h: 'Instagram', p: 'The atelier\'s visual record — new releases, bench moments, and seasonal collections. DMs are monitored but slower than WhatsApp.', link: 'https://www.instagram.com/khodiyar_jewellers_?utm_source=qr&igsh=MTkzMzJ5M3VkNzdyNQ%3D%3D', label: 'View on Instagram →' },
   { num: '03', h: 'Pinterest', p: 'Our design archive and trend board, maintained by the Leo Gold design studio. Useful for buyers researching the catalogue.', link: 'https://pinterest.com', label: 'Browse Pinterest →' },
   { num: '04', h: 'YouTube', p: 'Long-form atelier documentaries and process films. A full floor tour of Leo Gold was released in February 2026.', link: 'https://youtube.com', label: 'Watch on YouTube →' },
 ];
@@ -43,13 +43,13 @@ const Contact = () => {
               <div className="cc-icon">📞</div>
               <h4>Telephone</h4>
               <p>Trade desk, atelier visits<br />and account queries.</p>
-              <a href="tel:+912222420000" className="link-arrow">+91 22 2242 0000 <span>→</span></a>
+              <a href="tel:+9193139902158" className="link-arrow">+91 93139902158 <span>→</span></a>
             </div>
             <div className="contact-card">
               <div className="cc-icon">✉️</div>
               <h4>Correspond</h4>
               <p>Trade accounts, export documentation,<br />bespoke commissions.</p>
-              <a href="mailto:trade@khodiyarjewellers.com" className="link-arrow">trade@khodiyarjewellers.com <span>→</span></a>
+              <a href="mailto:khodiyarjeweller5374@gmail.com" className="link-arrow">khodiyarjeweller5374@gmail.com <span>→</span></a>
             </div>
           </div>
         </div>
@@ -61,9 +61,9 @@ const Contact = () => {
           <div className="section-head reveal">
             <div>
               <span className="eyebrow">The Address</span>
-              <h2 style={{ marginTop: 18 }}>{Brand?.AtelierName},<em>Zaveri Bazaar.</em></h2>
+              <h2 style={{ marginTop: 18 }}>{Brand?.AtelierName},<em>Mota Varachha.</em></h2>
             </div>
-            <p>We are on the fourth floor above the main Zaveri Bazaar arcade, accessible by the central lift. Visitors are received by appointment only.</p>
+            <p>We are on the fourth floor above the main Mota Varachha arcade, accessible by the central lift. Visitors are received by appointment only.</p>
           </div>
           <div className="map-shell reveal">
             <iframe

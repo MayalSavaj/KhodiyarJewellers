@@ -424,7 +424,7 @@ section {
 }
 
 .btn-gold:hover {
-  color: var(--royal-deep);
+  color: var(--gold-ligth);
   border-color: var(--gold);
 }
 
