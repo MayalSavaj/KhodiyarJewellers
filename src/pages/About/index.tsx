@@ -60,7 +60,7 @@ const About = () => {
                 src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=80"
                 alt="Heritage jewellery craftsmanship"
               />
-              <div className="frame-tag">Founder · 1982</div>
+              <div className="frame-tag">Founder · 2011</div>
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@ const About = () => {
             Visit the Atelier
           </span>
           <h2 style={{ marginTop: 22 }}>
-            Step inside<em>our Mumbai workshop.</em>
+            Step inside<em>our Surat workshop.</em>
           </h2>
           <p>
             Trade partners and retailers are warmly invited to schedule a private visit to the Leo Gold

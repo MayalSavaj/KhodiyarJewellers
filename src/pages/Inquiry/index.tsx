@@ -46,8 +46,8 @@ const Inquiry = () => {
               <p>For urgent matters, WhatsApp is faster than this form. We respond within the hour during trading days.</p>
               <div className="contact-line">
                 <div className="row"><span className="ci">📍</span><div><strong>The Atelier</strong><span>Mota Varachha, Surat, Gujarat 394101</span></div></div>
-                <div className="row"><span className="ci">📞</span><div><strong>Trade Desk</strong><span><a href="tel:+912222420000">+91 22 2242 0000</a></span></div></div>
-                <div className="row"><span className="ci">✉️</span><div><strong>Mail</strong><span><a href="mailto:trade@khodiyarjewellers.com">trade@khodiyarjewellers.com</a></span></div></div>
+                <div className="row"><span className="ci">📞</span><div><strong>Trade Desk</strong><span><a href="tel:+9193139902158">+91 93139902158</a></span></div></div>
+                <div className="row"><span className="ci">✉️</span><div><strong>Mail</strong><span><a href="mailto:khodiyarjeweller5374@gmail.com">khodiyarjeweller5374@gmail.com</a></span></div></div>
                 <div className="row"><span className="ci">⏱️</span><div><strong>Hours</strong><span>Mon–Sat, 09:30–18:30 IST</span></div></div>
               </div>
             </aside>
@@ -105,7 +105,7 @@ const Inquiry = () => {
       </section>
 
       {/* Quote */}
-      <section className="section section-ivory">
+      {/* <section className="section section-ivory">
         <div className="shell">
           <div className="quote-block reveal" style={{ maxWidth: 720, margin: '0 auto', textAlign: 'center' }}>
             <blockquote style={{ fontSize: 'clamp(20px,2.5vw,26px)', lineHeight: 1.65, fontFamily: 'var(--font-display)', color: 'var(--dark)', fontStyle: 'italic' }}>
@@ -116,7 +116,7 @@ const Inquiry = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
