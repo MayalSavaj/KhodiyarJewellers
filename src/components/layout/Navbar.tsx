@@ -67,7 +67,7 @@ const Navbar = () => {
                 <span className="drop-note">For Wholesalers &amp; Partners</span>
                 <NavLink to={Route.WhyChooseUs} onClick={close}>Why Choose Us</NavLink>
                 <NavLink to={Route.Certifications} onClick={close}>Certifications</NavLink>
-                <NavLink to={Route.GoldRate} onClick={close}>Daily Gold Rate</NavLink>
+                {/* <NavLink to={Route.GoldRate} onClick={close}>Daily Gold Rate</NavLink> */}
                 <NavLink to={Route.Inquiry} onClick={close}>Trade Inquiry</NavLink>
               </div>
             </li>

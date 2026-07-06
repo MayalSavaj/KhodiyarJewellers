@@ -43,18 +43,16 @@ const About = () => {
                 A workshop, a name,<em>a promise.</em>
               </h2>
               <p>
-                In the monsoon of 1982, our founder Shri Bhagwandas Patel inherited a single karigar's
-                bench in Mumbai's Zaveri Bazaar. He came with little capital, a thorough knowledge of
-                22-karat gold, and a stubborn idea: that wholesale jewellery did not have to mean
-                compromised jewellery.
+                Our journey started in 2011 with Khodiyar Jewellers, our retail jewelry store in Mota Varachha, Surat, Gujarat, India. From the very beginning, our mission was simple—to offer beautifully crafted jewelry with honest quality, timeless designs, and exceptional customer service.
               </p>
               <p>
-                He named the shop <em>Khodiyar</em> — after the family deity — and refused to let a
-                piece leave the bench until he could weigh his name on it.
+               As our experience and passion grew, we expanded into the CZ (Cubic Zirconia) jewelry wholesale business in 2020, serving jewelry retailers with premium-quality designs that combine elegance, craftsmanship, and affordability.
               </p>
               <p>
-                Forty-two years later, the bench has grown into a 28,000 sq.ft. atelier. The principle
-                has not changed.
+                Driven by a vision to create our own exclusive collections, we proudly established <em>Savvy Jewels</em> in 2025—our dedicated jewelry manufacturing company. Today, Savvy Jewels specializes in designing and manufacturing contemporary and timeless jewelry that reflects fine craftsmanship and attention to every detail.
+              </p>
+              <p>
+                Founded by Tansukhbhai Savaj and Nareshbhai Dobariya, Savvy Jewels is built on the values of trust, integrity, innovation, and lasting relationships. Every design is thoughtfully created by skilled artisans who blend traditional craftsmanship with modern aesthetics, ensuring that each piece is both beautiful and meaningful.
               </p>
             </div>
             <div className="story-media reveal" data-delay="2">
@@ -69,16 +67,16 @@ const About = () => {
       </section>
 
       {/* Timeline */}
-      <section className="section section-ivory">
-        <div className="shell">
-          <div className="section-head-center reveal">
+      {/* <section className="section section-ivory"> */}
+        {/* <div className="shell"> */}
+          {/* <div className="section-head-center reveal">
             <span className="eyebrow center">A Quiet Chronology</span>
             <h2 style={{ marginTop: 22 }}>
               Four decades<br /><em>in five chapters.</em>
             </h2>
-          </div>
+          </div> */}
 
-          <div className="timeline">
+          {/* <div className="timeline">
             {[
               {
                 year: '1982',
@@ -129,9 +127,9 @@ const About = () => {
                 ) : <div />}
               </div>
             ))}
-          </div>
-        </div>
-      </section>
+          </div> */}
+        {/* </div> */}
+      {/* </section> */}
 
       {/* Leo Gold intro */}
       <section className="section mfg">
@@ -142,14 +140,13 @@ const About = () => {
               {Brand?.AtelierName} —<em>the workshop within.</em>
             </h2>
             <p>
-              Founded in 2008 as the manufacturing arm of {Brand?.Name}, the {Brand?.AtelierName} atelier exists
-              for one purpose: to make sure that every piece sold under the maison's name has been touched,
-              weighed and finished under our own roof.
+              Whether you're looking for an elegant gift, a timeless everyday accessory, or a statement piece for a special occasion, our goal is to create jewelry that celebrates life's most precious moments.
             </p>
             <p>
-              Across our floors you will find CAD designers and master setters working side by side,
-              BIS-assay technicians next to traditional polishers, and a karigar workshop where some
-              artisans have served the family for two generations.
+              Based in Surat, one of India's leading jewelry manufacturing hubs, we proudly serve customers around the world with carefully crafted collections, reliable quality, and dedicated customer support.
+            </p>
+            <p>
+              Thank you for visiting Savvy Jewels. We are honored to be a part of your story and look forward to creating jewelry you'll cherish for years to come.
             </p>
             <Link
               to={Route.Manufacturing}
@@ -236,7 +233,7 @@ const About = () => {
             relationship between a family and an object.
           </p>
           <div className="quote-author">
-            Bhagwandas Patel · <span>Founder</span>
+            Tansukh Savaj and Naresh Dobariya · <span>Founder</span>
           </div>
         </div>
       </section>
