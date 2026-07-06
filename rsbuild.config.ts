@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   html: {
-    title: 'Khodiyar Jewellers - By Leo Gold Atelier',
+    title: 'Khodiyar Jewellers',
     favicon: './public/favicon.png',
   },
   server: {

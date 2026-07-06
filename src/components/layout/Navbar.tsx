@@ -77,7 +77,6 @@ const Navbar = () => {
             <span className="brand-mark">
               Khodiyar <span className="amp">&amp;</span> Jewellers
             </span>
-            <span className="brand-sub">By Leo Gold Atelier</span>
           </NavLink>
 
           <ul className="nav-list right">

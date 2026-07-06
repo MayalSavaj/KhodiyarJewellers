@@ -33,7 +33,7 @@ const FEATURED = {
   date: '20 May 2026',
   read: '12 min read',
   title: 'The Bridal Gold Brief for 2026: What Brides and Retailers Both Want.',
-  body: 'After reviewing our top-30 wholesale accounts and speaking to eight bridal stylists in Mumbai, Surat and Dubai, we have distilled the 2026 bridal brief into four non-negotiable design notes — and one quiet revolution in weight.',
+  body: 'After reviewing our top-30 wholesale accounts and speaking to eight bridal stylists in Surat, we have distilled the 2026 bridal brief into four non-negotiable design notes — and one quiet revolution in weight.',
 };
 
 const Blog = () => {
@@ -49,7 +49,7 @@ const Blog = () => {
         <div className="shell hero-content">
           <span className="eyebrow hero-eyebrow">IX. Atelier Journal</span>
           <h1 className="hero-title">Notes from<em>the bench.</em></h1>
-          <p className="hero-sub">Perspective from the Leo Gold atelier — on markets, craft, trends and the quiet discipline of a long-running jewellery maison.</p>
+          <p className="hero-sub">Perspective from the Khodiyar Jewellers — on markets, craft, trends and the quiet discipline of a long-running jewellery maison.</p>
         </div>
         <div className="hero-meta"><span>IX. Atelier Journal</span><span>{Brand.RomanYear}</span></div>
       </section>

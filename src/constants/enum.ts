@@ -2,7 +2,7 @@
 
 export enum Brand {
   Name        = 'Khodiyar Jewellers',
-  AtelierName = 'Leo Gold',
+  AtelierName = 'Khodiyar Jewellers',
   RomanYear   = 'MMXXVI',
   FoundedYear = '1984',
   AtelierFounded = '2008',

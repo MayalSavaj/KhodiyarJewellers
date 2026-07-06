@@ -14,7 +14,7 @@ const Footer = () => {
           </span>
           <p>
             A heritage jewellery maison crafting heirloom-grade bridal, traditional and modern gold
-            jewellery &mdash; manufactured in-house at the Leo Gold atelier, Surat.
+            jewellery, Surat.
           </p>
           <div className="socials">
             <a href="#" aria-label="Instagram">
@@ -45,7 +45,7 @@ const Footer = () => {
           <h5>Maison</h5>
           <ul>
             <li><Link to={Route.About}>Our Story</Link></li>
-            <li><Link to={Route.Manufacturing}>Leo Gold</Link></li>
+            {/* <li><Link to={Route.Manufacturing}>Leo Gold</Link></li> */}
             <li><Link to={Route.Collections}>Collections</Link></li>
             <li><Link to={Route.LatestCollections}>Latest</Link></li>
             <li><Link to={Route.Gallery}>Gallery</Link></li>
@@ -78,8 +78,8 @@ const Footer = () => {
             <strong>Address</strong>
              Shop No. 2/3 Saurastra township, Sudama Chowk, <br />Mota Varachha, Surat, Gujarat 394101, India.
           </p>
-          <p><strong>Telephone</strong>+91 98212 00000</p>
-          <p><strong>Email</strong>atelier@khodiyarjewellers.com</p>
+          <p><strong>Telephone</strong>+91 93139902158</p>
+          <p><strong>Email</strong>khodiyarjeweller5374@gmail.com</p>
         </div>
       </div>
 
